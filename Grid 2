@@ -8,17 +8,17 @@
 
             </header>
             
-            <div class="container">
-                <div class="header">Header</div>
-                <div class="sidebara1">Sidebar 1</div>
-                <div class="sidebara2">Sidebar 2</div>
-                <div class="maina">Main</div>
-                <div class="aside">Aside</div>
-                <div class="sidebarb1">Sidebar 1</div>
-                <div class="sidebarb2"> Sidebar 2</div>
-                <div class="sidebarb3">Sidebar 3</div>
-                <div class="mainb">Main</div>
-                <div class="footer">Footer</div>
+            <div class="containerb">
+                <div class="headerb">Header</div>
+                <div class="sidebarba1">Sidebar 1</div>
+                <div class="sidebarba2">Sidebar 2</div>
+                <div class="mainba">Main</div>
+                <div class="asideb">Aside</div>
+                <div class="sidebarbb1">Sidebar 1</div>
+                <div class="sidebarbb2"> Sidebar 2</div>
+                <div class="sidebarbb3">Sidebar 3</div>
+                <div class="mainbb">Main</div>
+                <div class="footerb">Footer</div>
               </div>
         </body>
-    </html>a
+    </html>
