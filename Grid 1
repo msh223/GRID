@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <header>
+
+            </header>
+
+            <div class="containera">
+                <div class="headera">Header</div>
+                <div class="sidebaraa1">Sidebar 1</div>
+                <div class="sidebaraa2">Sidebar 2</div>
+                <div class="mainaa">Main</div>
+                <div class="asidea">Aside</div>
+                <div class="sidebarab1">Sidebar 1</div>
+                <div class="sidebarab2"> Sidebar 2</div>
+                <div class="sidebarab3">Sidebar 3</div>
+                <div class="mainab">Main</div>
+                <div class="footera">Footer</div>
+              </div>
+        </body>
+    </html>a

@@ -1,0 +1,99 @@
+/*
+DIMENSIONS
+    ROW 1:
+        Header Box (class="header") | w:1920 (100%) h:593
+    ROW 2:
+        Sidebar 1 Box (class="sidebara1") | w:960 (50%) h:593
+        Sidebar 2 Box (class="sidebara2") | w:960 (50%) h:593
+    ROW 3:
+        Main Box (class="maina") | w:1440 (75%) h:593
+        Aside Box (class="aside" | w:480 (25%) h:593
+    ROW 4:
+        Sidebar 1 Box (class="sidebarb1") | w:643 (33%) h:658
+        Sidebar 2 Box (class="sidebarb2") | w:642 (33%) h:658
+        Sidebar 3 Box (class="sidebarb3") | w:643 (33%) h:658
+    ROW 5:
+        Main Box (class="mainb") | w:1920 (100%) h:593
+    ROW 6:
+        Footer Box (class="footer") | w:1920 (100%) h:161
+*/
+
+.containera {  
+  margin: auto;
+  width: 85%;
+  display: grid;
+  grid-template-columns: 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333%;
+  grid-template-rows: 250px 250px 250px 250px 250px 62.5px;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "headera headera headera headera headera headera headera headera headera headera headera headera"
+    "sidebaraa1 sidebaraa1 sidebaraa1 sidebaraa1 sidebaraa1 sidebaraa1 sidebaraa2 sidebaraa2 sidebaraa2 sidebaraa2 sidebaraa2 sidebaraa2"
+    "mainaa mainaa mainaa mainaa mainaa mainaa mainaa mainaa mainaa asidea asidea asidea"
+    "sidebarab1 sidebarab1 sidebarab1 sidebarab1 sidebarab2 sidebarab2 sidebarab2 sidebarab2 sidebarab3 sidebarab3 sidebarab3 sidebarab3"
+    "mainb mainb mainb mainb mainb mainb mainb mainb mainb mainb mainb mainb"
+    "footera footera footera footera footera footera footera footera footera footera footera footera";
+}
+
+.headera, .sidebaraa1, .sidebaraa2, .mainaa, .asidea, .sidebarab1, .sidebarab2, .sidebarab3, .mainab {
+  text-align: center;
+  display: inline-block;
+  line-height: 250px;
+}
+
+.headera { 
+  grid-area: header;
+  background-color: lightcoral; 
+}
+
+.sidebaraa1 { 
+  grid-area: sidebara1;
+  background-color: aquamarine;
+}
+
+.sidebaraa2 { 
+  grid-area: sidebara2; 
+  background-color: cornflowerblue;
+}
+
+.mainaa { 
+  grid-area: maina; 
+  background-color: lemonchiffon;
+}
+
+.asidea {
+   grid-area: aside; 
+   background-color: lavenderblush;
+}
+
+.sidebarab1 { 
+  grid-area: sidebarb1; 
+  background-color: indianred;
+}
+
+.sidebarab2 { 
+  grid-area: sidebarb2; 
+  background-color: royalblue;
+}
+
+.sidebarab3 { 
+  grid-area: sidebarb3; 
+  background-color: honeydew;
+}
+
+
+.mainab {
+  grid-area: mainb; 
+  background-color: wheat;
+}
+
+.footera { 
+  grid-area: footer; 
+  text-align: center;
+  display: inline-block;
+  line-height: 62.5px;
+  background-color: steelblue;
+}
+
+
+
