@@ -103,6 +103,13 @@ Grid 1
 
 }
 
+.Afooter{
+
+  grid-area: Afooter;
+  background-color: yellow;
+
+}
+
 /*
 
 Responsive
