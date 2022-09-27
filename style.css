@@ -117,36 +117,75 @@ header{
   gap: 5px 5px;
   grid-auto-flow: row;
   grid-template-areas:
-    "smalla1 smalla1 smalla1 meda1 meda1 meda1 meda1 meda1 meda1 smalla2 smalla2 smalla2"
-    "headera1 headera1 headera1 headera1 headera1 headera1 headera1 headera1 headera1 headera1 imga1 imga1"
-    "maina1 maina1 maina1 maina1 maina1 maina1 maina1 maina1 maina1 sidebara1 sidebara1 sidebara1"
-    "quotea1 quotea1 quotea1 quotea1 quotea1 quotea1 quotea1 quotea1 quotea1 sidebara1 sidebara1 sidebara1"
-    "smallb1 smallb1 medb1 medb1 medb1 smallb2 smallb2 largea1 largea1 largea1 largea1 largea1"
-    "footer footer footer footer footer footer footer footer footer footer footer footer";
+    "smallba1 smallba1 smallba1 medba1 medba1 medba1 medba1 medba1 medba1 smallba2 smallba2 smallba2"
+    "headerba1 headerba1 headerba1 headerba1 headerba1 headerba1 headebra1 headerba1 headebra1 headerba1 imgba1 imgba1"
+    "mainba1 mainba1 mainba1 mainba1 mainba1 mainba1 mainba1 mainba1 mainba1 sidebarba1 sidebarba1 sidebarba1"
+    "quoteba1 quoteba1 quoteba1 quoteba1 quoteba1 quoteba1 quoteba1 quoteba1 quoteba1 sidebarba1 sidebarba1 sidebarba1"
+    "smallbb1 smallbb1 medbb1 medbb1 medbb1 smallbb2 smallbb2 largeba1 largeba1 largeba1 largeba1 largeba1"
+    "footerb footerb footerb footerb footerb footerb footerb footerb footerb footerb footerb footerb";
 }
 
-.footer { grid-area: footer; }
+.footerb { 
+  grid-area: footerb; 
+  background-color: pink;
+}
 
-.smalla1 { grid-area: smalla1; }
+.smallba1 { 
+  grid-area: smallba1; 
+  background-color: red;
+}
 
-.meda1 { grid-area: meda1; }
+.medba1 { 
+  grid-area: medba1; 
+  background-color: blue;
+}
 
-.smalla2 { grid-area: smalla2; }
+.smallba2 { 
+  grid-area: smallba2; 
+  background-color: yellow;
+}
 
-.headera1 { grid-area: headera1; }
+.headerba1 { 
+  grid-area: headerba1; 
+  background-color: green;
+}
 
-.imga1 { grid-area: imga1; }
+.imgba1 { 
+  grid-area: imgba1; 
+  background-color: orange;
+}
 
-.maina1 { grid-area: maina1; }
+.mainba1 { 
+  grid-area: mainba1; 
+  background-color: purple;
+}
 
-.quotea1 { grid-area: quotea1; }
+.quoteba1 { 
+  grid-area: quoteba1; 
+  background-color: gray;
+}
 
-.sidebara1 { grid-area: sidebara1; }
+.sidebarba1 { 
+  grid-area: sidebarba1; 
+  background-color: paleturquoise;
+}
 
-.smallb1 { grid-area: smallb1; }
+.smallbb1 { 
+  grid-area: smallbb1; 
+  background-color: azure;
+}
 
-.medb1 { grid-area: medb1; }
+.medbb1 { 
+  grid-area: medbb1; 
+  background-color: lightcoral;
+}
 
-.smallb2 { grid-area: smallb2; }
+.smallbb2 { 
+  grid-area: smallbb2; 
+  background-color: mediumpurple;
+}
 
-.largea1 { grid-area: largea1; }
+.largeba1 { 
+  grid-area: largeba1; 
+  background-color: olive;
+}
