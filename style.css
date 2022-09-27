@@ -1,4 +1,11 @@
 
+
+*{
+
+  font-family:'Courier New', Courier, monospace;
+  font-style: normal;
+}
+
 header{
   
   text-align: center;
