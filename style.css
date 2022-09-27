@@ -101,11 +101,23 @@ header{
     "quoteba1 quoteba1 quoteba1 quoteba1 quoteba1 quoteba1 quoteba1 quoteba1 quoteba1 sidebarba1 sidebarba1 sidebarba1"
     "smallbb1 smallbb1 medbb1 medbb1 medbb1 smallbb2 smallbb2 largeba1 largeba1 largeba1 largeba1 largeba1"
     "footerb footerb footerb footerb footerb footerb footerb footerb footerb footerb footerb footerb";
+    background-color: lime;
+}
+
+
+.smallba1, .medba1, .smallba2, .headerba1, .imgba1, .mainba1, .sidebarba1, .quoteba1, .smallbb1, .medbb1, .smallbb2, .largeba1 {
+  text-align: center;
+  display: inline-block;
+  line-height: 250px;
 }
 
 .footerb { 
   grid-area: footerb; 
+  text-align: center;
+  display: inline-block;
+  line-height: 62.5px;
   background-color: pink;
+
 }
 
 .smallba1 { 
