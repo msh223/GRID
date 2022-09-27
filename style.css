@@ -29,7 +29,8 @@ header{
 
 
 .containera {  
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 85%;
   display: grid;
   grid-template-columns: 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333%;
@@ -107,7 +108,8 @@ header{
 
 /*other grid*/
 .containerb {  
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 85%;
   display: grid;
   grid-template-columns: 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333%;
