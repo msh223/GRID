@@ -109,6 +109,8 @@ header{
   text-align: center;
   display: inline-block;
   line-height: 250px;
+  border: 5px;
+  border-color: lime;
 }
 
 .footerb { 
@@ -116,6 +118,8 @@ header{
   text-align: center;
   display: inline-block;
   line-height: 62.5px;
+  border: 5px;
+  border-color: lime;
   background-color: pink;
 
 }
