@@ -98,7 +98,6 @@ DIMENSIONS
 }
 
 /*other grid*/
-
 .containerb {  
   margin: auto;
   width: 85%;
@@ -108,71 +107,36 @@ DIMENSIONS
   gap: 5px 5px;
   grid-auto-flow: row;
   grid-template-areas:
-    "headerb headerb headerb headerb headerb headerb headerb headerb headerb headerb headerb headerb"
-    "sidebarba1 sidebarba1 sidebarba1 sidebarba1 sidebarba1 sidebarba1 sidebarba2 sidebarba2 sidebarba2 sidebarba2 sidebarba2 sidebarba2"
-    "mainba mainba mainba mainba mainba mainba mainba mainba mainba asideb asideb asideb"
-    "sidebarbb1 sidebarbb1 sidebarbb1 sidebarbb1 sidebarbb2 sidebarbb2 sidebarbb2 sidebarbb2 sidebarbb3 sidebarbb3 sidebarbb3 sidebarbb3"
-    "mainbb mainbb mainbb mainbb mainbb mainbb mainbb mainbb mainbb mainbb mainbb mainbb"
-    "footerb footerb footerb footerb footerb footerb footerb footerb footerb footera footerb footerb";
+    "smalla1 smalla1 smalla1 meda1 meda1 meda1 meda1 meda1 meda1 smalla2 smalla2 smalla2"
+    "headera1 headera1 headera1 headera1 headera1 headera1 headera1 headera1 headera1 headera1 imga1 imga1"
+    "maina1 maina1 maina1 maina1 maina1 maina1 maina1 maina1 maina1 sidebara1 sidebara1 sidebara1"
+    "quotea1 quotea1 quotea1 quotea1 quotea1 quotea1 quotea1 quotea1 quotea1 sidebara1 sidebara1 sidebara1"
+    "smallb1 smallb1 medb1 medb1 medb1 smallb2 smallb2 largea1 largea1 largea1 largea1 largea1"
+    "footer footer footer footer footer footer footer footer footer footer footer footer";
 }
 
-.headerb, .sidebarba1, .sidebarba2, .mainba, .asideb, .sidebarbb1, .sidebarbb2, .sidebarbb3, .mainab {
-  text-align: center;
-  display: inline-block;
-  line-height: 250px;
-}
+.footer { grid-area: footer; }
 
-.headerb { 
-  grid-area: headerb;
-  background-color: lightcoral; 
-}
+.smalla1 { grid-area: smalla1; }
 
-.sidebarba1 { 
-  grid-area: sidebarba1;
-  background-color: aquamarine;
-}
+.meda1 { grid-area: meda1; }
 
-.sidebarba2 { 
-  grid-area: sidebarba2; 
-  background-color: cornflowerblue;
-}
+.smalla2 { grid-area: smalla2; }
 
-.mainba { 
-  grid-area: mainba; 
-  background-color: lemonchiffon;
-}
+.headera1 { grid-area: headera1; }
 
-.asideb {
-   grid-area: asideb; 
-   background-color: lavenderblush;
-}
+.imga1 { grid-area: imga1; }
 
-.sidebarbb1 { 
-  grid-area: sidebarbb1; 
-  background-color: indianred;
-}
+.maina1 { grid-area: maina1; }
 
-.sidebarbb2 { 
-  grid-area: sidebarbb2; 
-  background-color: royalblue;
-}
+.quotea1 { grid-area: quotea1; }
 
-.sidebarbb3 { 
-  grid-area: sidebarbb3; 
-  background-color: honeydew;
-}
+.sidebara1 { grid-area: sidebara1; }
 
+.smallb1 { grid-area: smallb1; }
 
-.mainbb {
-  grid-area: mainbb; 
-  background-color: wheat;
-}
+.medb1 { grid-area: medb1; }
 
-.footerb { 
-  grid-area: footerb; 
-  text-align: center;
-  display: inline-block;
-  line-height: 62.5px;
-  background-color: steelblue;
-}
+.smallb2 { grid-area: smallb2; }
 
+.largea1 { grid-area: largea1; }
