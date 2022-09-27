@@ -44,53 +44,53 @@ DIMENSIONS
 }
 
 .headera { 
-  grid-area: header;
+  grid-area: headera;
   background-color: lightcoral; 
 }
 
 .sidebaraa1 { 
-  grid-area: sidebara1;
+  grid-area: sidebaraa1;
   background-color: aquamarine;
 }
 
 .sidebaraa2 { 
-  grid-area: sidebara2; 
+  grid-area: sidebaraa2; 
   background-color: cornflowerblue;
 }
 
 .mainaa { 
-  grid-area: maina; 
+  grid-area: mainaa; 
   background-color: lemonchiffon;
 }
 
 .asidea {
-   grid-area: aside; 
+   grid-area: asidea; 
    background-color: lavenderblush;
 }
 
 .sidebarab1 { 
-  grid-area: sidebarb1; 
+  grid-area: sidebarab1; 
   background-color: indianred;
 }
 
 .sidebarab2 { 
-  grid-area: sidebarb2; 
+  grid-area: sidebarba2; 
   background-color: royalblue;
 }
 
 .sidebarab3 { 
-  grid-area: sidebarb3; 
+  grid-area: sidebarab3; 
   background-color: honeydew;
 }
 
 
 .mainab {
-  grid-area: mainb; 
+  grid-area: mainab; 
   background-color: wheat;
 }
 
 .footera { 
-  grid-area: footer; 
+  grid-area: footera; 
   text-align: center;
   display: inline-block;
   line-height: 62.5px;
@@ -123,53 +123,53 @@ DIMENSIONS
 }
 
 .headerb { 
-  grid-area: header;
+  grid-area: headerb;
   background-color: lightcoral; 
 }
 
 .sidebarba1 { 
-  grid-area: sidebara1;
+  grid-area: sidebarba1;
   background-color: aquamarine;
 }
 
 .sidebarba2 { 
-  grid-area: sidebara2; 
+  grid-area: sidebarba2; 
   background-color: cornflowerblue;
 }
 
 .mainba { 
-  grid-area: maina; 
+  grid-area: mainba; 
   background-color: lemonchiffon;
 }
 
 .asideb {
-   grid-area: aside; 
+   grid-area: asideb; 
    background-color: lavenderblush;
 }
 
 .sidebarbb1 { 
-  grid-area: sidebarb1; 
+  grid-area: sidebarbb1; 
   background-color: indianred;
 }
 
 .sidebarbb2 { 
-  grid-area: sidebarb2; 
+  grid-area: sidebarbb2; 
   background-color: royalblue;
 }
 
 .sidebarbb3 { 
-  grid-area: sidebarb3; 
+  grid-area: sidebarbb3; 
   background-color: honeydew;
 }
 
 
 .mainbb {
-  grid-area: mainb; 
+  grid-area: mainbb; 
   background-color: wheat;
 }
 
 .footerb { 
-  grid-area: footer; 
+  grid-area: footerb; 
   text-align: center;
   display: inline-block;
   line-height: 62.5px;
