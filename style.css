@@ -3,12 +3,9 @@ header{
   text-align: center;
 }
 
-/*simple grid*/
-
 .hidden{
   visibility: hidden;
 }
-
 
 .containera {  
   margin: auto;
@@ -113,21 +110,14 @@ header{
   border-color: lime;
 }
 
-.footerb { 
-  grid-area: footerb; 
-  text-align: center;
-  display: inline-block;
-  line-height: 62.5px;
-  border: 5px;
-  border-color: lime;
-  background-color: pink;
-
-}
-
 .smallba1 { 
   grid-area: smallba1; 
   background-color: red;
 }
+
+
+
+
 
 .medba1 { 
   grid-area: medba1; 
@@ -154,14 +144,14 @@ header{
   background-color: purple;
 }
 
-.quoteba1 { 
-  grid-area: quoteba1; 
-  background-color: gray;
-}
-
 .sidebarba1 { 
   grid-area: sidebarba1; 
   background-color: paleturquoise;
+}
+
+.quoteba1 { 
+  grid-area: quoteba1; 
+  background-color: gray;
 }
 
 .smallbb1 { 
@@ -182,4 +172,15 @@ header{
 .largeba1 { 
   grid-area: largeba1; 
   background-color: olive;
+}
+
+.footerb { 
+  grid-area: footerb; 
+  text-align: center;
+  display: inline-block;
+  line-height: 62.5px;
+  border: 5px;
+  border-color: lime;
+  background-color: pink;
+
 }
