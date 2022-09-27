@@ -112,7 +112,7 @@ header{
   background-color: red;
   grid-row: 1;
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 4;
 }
 
 .medba1 { 
@@ -127,7 +127,7 @@ header{
   grid-area: smallba2; 
   background-color: yellow;
   grid-row: 1;
-  grid-column-start: 10;
+  grid-column-start: 9;
   grid-column-end: 12;
 }
 
@@ -136,7 +136,7 @@ header{
   background-color: green;
   grid-row: 2;
   grid-column-start: 1;
-  grid-column-end: 10;
+  grid-column-end: 11;
 }
 
 .imgba1 { 
@@ -152,7 +152,7 @@ header{
   background-color: purple;
   grid-row: 3;
   grid-column-start: 1;
-  grid-column-end: 9;
+  grid-column-end: 10;
 }
 
 .sidebarba1 { 
@@ -169,7 +169,7 @@ header{
   background-color: gray;
   grid-row: 4;
   grid-column-start: 1;
-  grid-column-end: 9;
+  grid-column-end: 10;
 }
 
 .smallbb1 { 
@@ -177,7 +177,7 @@ header{
   background-color: azure;
   grid-row: 5;
   grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column-end: 3;
 }
 
 .medbb1 { 
@@ -185,7 +185,7 @@ header{
   background-color: lightcoral;
   grid-row: 5;
   grid-column-start: 3;
-  grid-column-end: 5;
+  grid-column-end: 6;
 }
 
 .smallbb2 { 
@@ -193,7 +193,7 @@ header{
   background-color: mediumpurple;
   grid-row: 5;
   grid-column-start: 6;
-  grid-column-end: 7;
+  grid-column-end: 8;
 }
 
 .largeba1 { 
