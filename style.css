@@ -25,7 +25,9 @@ header{
 
 /*simple grid*/
 
-
+.hidden{
+  visibility: hidden;
+}
 
 
 .containera {  
