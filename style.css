@@ -21,6 +21,8 @@ Grid 1
 .Acontainer{
 
   background-color: slategray;
+  border-width: 10px;
+  border-color: slategray;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 4fr 4fr 4fr 4fr 4fr 2fr;
@@ -112,6 +114,8 @@ Responsive
 
     background-color: slategray;
     display: grid;
+    border-width: 10px;
+    border-color: slategray;
     grid-template-columns: 1fr;
     grid-template-rows: 4fr 4fr 4fr 4fr 4fr 4fr 4fr 4fr 4fr 2fr;
 
@@ -144,6 +148,8 @@ Grid 2
 
 background-color: slategray;
 display: grid;
+border-width: 10px;
+border-color: slategray;
 grid-template-columns: repeat(12, 1fr);
 grid-template-rows: 4fr 4fr 4fr 4fr 4fr 2fr;
 
@@ -262,6 +268,8 @@ Responsive
 
     background-color: slategray;
     display: grid;
+    border-width: 10px;
+    border-color: slategray;
     grid-template-columns: 1fr;
     grid-template-rows: 4fr 4fr 4fr 4fr 4fr 4fr 8fr 4fr 4fr 4fr 4fr 4fr 2fr;
 
