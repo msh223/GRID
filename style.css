@@ -23,6 +23,7 @@ header{
     "footera footera footera footera footera footera footera footera footera footera footera footera";
 }
 
+
 .headera, .sidebaraa1, .sidebaraa2, .mainaa, .asidea, .sidebarab1, .sidebarab2, .sidebarab3, .mainab {
   text-align: center;
   display: inline-block;
@@ -69,7 +70,6 @@ header{
   background-color: honeydew;
 }
 
-
 .mainab {
   grid-area: mainab; 
   background-color: wheat;
@@ -114,10 +114,6 @@ header{
   grid-area: smallba1; 
   background-color: red;
 }
-
-
-
-
 
 .medba1 { 
   grid-area: medba1; 
