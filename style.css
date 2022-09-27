@@ -47,6 +47,15 @@ Grid 1
 
 }
 
+.Aheader, .Asidebara1, .Asidebara2, .Amaina, .Aaside, .Asidebarb1, .Asidebarb2, .Asidebarb3, .Amainb {
+
+  display: inline;
+  height: 4fr;
+  line-height: 4fr;
+  vertical-align: middle;
+
+}
+
 .Aheader{
 
   grid-area: Aheader;
