@@ -85,8 +85,6 @@ header{
 
 /*other grid*/
 .containerb {  
-  margin: auto;
-  width: 85%;
   display: grid;
   grid-template-columns: 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333% 7.08333333%;
   grid-template-rows: 250px 250px 250px 250px 250px 62.5px;
@@ -98,7 +96,6 @@ header{
     "quoteba1 quoteba1 quoteba1 quoteba1 quoteba1 quoteba1 quoteba1 quoteba1 quoteba1 sidebarba1 sidebarba1 sidebarba1"
     "smallbb1 smallbb1 medbb1 medbb1 medbb1 smallbb2 smallbb2 largeba1 largeba1 largeba1 largeba1 largeba1"
     "footerb footerb footerb footerb footerb footerb footerb footerb footerb footerb footerb footerb";
-    background-color: lime;
 }
 
 
@@ -113,61 +110,98 @@ header{
 .smallba1 { 
   grid-area: smallba1; 
   background-color: red;
+  grid-row: 1;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 .medba1 { 
   grid-area: medba1; 
   background-color: blue;
+  grid-row: 1;
+  grid-column-start: 4;
+  grid-column-end: 9;
 }
 
 .smallba2 { 
   grid-area: smallba2; 
   background-color: yellow;
+  grid-row: 1;
+  grid-column-start: 10;
+  grid-column-end: 12;
 }
 
 .headerba1 { 
   grid-area: headerba1; 
   background-color: green;
+  grid-row: 2;
+  grid-column-start: 1;
+  grid-column-end: 10;
 }
 
 .imgba1 { 
   grid-area: imgba1; 
   background-color: orange;
+  grid-row: 2;
+  grid-column-start: 11;
+  grid-column-end: 12;
 }
 
 .mainba1 { 
   grid-area: mainba1; 
   background-color: purple;
+  grid-row: 3;
+  grid-column-start: 1;
+  grid-column-end: 9;
 }
 
 .sidebarba1 { 
   grid-area: sidebarba1; 
   background-color: paleturquoise;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 10;
+  grid-column-end: 12;
 }
 
 .quoteba1 { 
   grid-area: quoteba1; 
   background-color: gray;
+  grid-row: 4;
+  grid-column-start: 1;
+  grid-column-end: 9;
 }
 
 .smallbb1 { 
   grid-area: smallbb1; 
   background-color: azure;
+  grid-row: 5;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .medbb1 { 
   grid-area: medbb1; 
   background-color: lightcoral;
+  grid-row: 5;
+  grid-column-start: 3;
+  grid-column-end: 5;
 }
 
 .smallbb2 { 
   grid-area: smallbb2; 
   background-color: mediumpurple;
+  grid-row: 5;
+  grid-column-start: 6;
+  grid-column-end: 7;
 }
 
 .largeba1 { 
   grid-area: largeba1; 
   background-color: olive;
+  grid-row: 5;
+  grid-column-start: 8;
+  grid-column-end: 12;
 }
 
 .footerb { 
@@ -178,5 +212,7 @@ header{
   border: 5px;
   border-color: lime;
   background-color: pink;
-
+  grid-row: 6;
+  grid-column-start: 1;
+  grid-column-end: 12;
 }
