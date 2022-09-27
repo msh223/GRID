@@ -1,22 +1,3 @@
-/*
-DIMENSIONS
-    ROW 1:
-        Header Box (class="header") | w:1920 (100%) h:593
-    ROW 2:
-        Sidebar 1 Box (class="sidebara1") | w:960 (50%) h:593
-        Sidebar 2 Box (class="sidebara2") | w:960 (50%) h:593
-    ROW 3:
-        Main Box (class="maina") | w:1440 (75%) h:593
-        Aside Box (class="aside" | w:480 (25%) h:593
-    ROW 4:
-        Sidebar 1 Box (class="sidebarb1") | w:643 (33%) h:658
-        Sidebar 2 Box (class="sidebarb2") | w:642 (33%) h:658
-        Sidebar 3 Box (class="sidebarb3") | w:643 (33%) h:658
-    ROW 5:
-        Main Box (class="mainb") | w:1920 (100%) h:593
-    ROW 6:
-        Footer Box (class="footer") | w:1920 (100%) h:161
-*/
 
 header{
   text-align: center;
