@@ -18,6 +18,10 @@ DIMENSIONS
         Footer Box (class="footer") | w:1920 (100%) h:161
 */
 
+*{
+  margin:auto;
+}
+
 header{
   text-align: center;
   margin:auto;
