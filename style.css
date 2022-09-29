@@ -47,19 +47,11 @@ Grid 1
 
 }
 
-.Aheader, .Asidebara1, .Asidebara2, .Amaina, .Aaside, .Asidebarb1, .Asidebarb2, .Asidebarb3, .Amainb {
-
-  display: inline;
-  height: 4fr;
-  line-height: 4fr;
-  vertical-align: middle;
-
-}
-
 .Aheader{
 
   grid-area: Aheader;
   background-color: red;
+  padding-top: 120px;
 
 }
 
@@ -67,6 +59,7 @@ Grid 1
 
   grid-area: Asidebara1;
   background-color: orange;
+  padding-top: 120px;
 
 }
 
@@ -74,6 +67,7 @@ Grid 1
 
   grid-area: Asidebara2;
   background-color: yellow;
+  padding-top: 120px;
 
 }
 
@@ -81,6 +75,7 @@ Grid 1
 
   grid-area: Amaina;
   background-color: green;
+  padding-top: 120px;
 
 }
 
@@ -88,6 +83,7 @@ Grid 1
 
   grid-area: Aaside;
   background-color: blue;
+  padding-top: 120px;
 
 }
 
@@ -95,6 +91,7 @@ Grid 1
 
   grid-area: Asidebarb1;
   background-color: indigo;
+  padding-top: 120px;
 
 }
 
@@ -102,6 +99,7 @@ Grid 1
 
   grid-area: Asidebarb2;
   background-color: purple;
+  padding-top: 120px;
 
 }
 
@@ -109,6 +107,7 @@ Grid 1
 
   grid-area: Asidebarb3;
   background-color: red;
+  padding-top: 120px;
 
 }
 
@@ -116,6 +115,7 @@ Grid 1
 
   grid-area: Amainb;
   background-color: orange;
+  padding-top: 120px;
 
 }
 
@@ -123,6 +123,7 @@ Grid 1
 
   grid-area: Afooter;
   background-color: yellow;
+  padding-top: 60px;
 
 }
 
@@ -159,6 +160,19 @@ Responsive
 
 
   }
+
+.Aheader, .Asidebara1, .Asidebara2, .Amaina, .Aaside, .Asidebarb1, .Asidebarb2, .Asidebarb3, .Amainb {
+
+  padding-top: 50px;
+
+}
+
+.Afooter {
+
+  padding-top: 20px;
+
+}
+
 }
 
 /*
@@ -193,6 +207,7 @@ grid-gap: 10px;
 
   grid-area: Bsmalla1;
   background-color: red;
+  padding-top: 80px;
 
 }
 
@@ -200,6 +215,7 @@ grid-gap: 10px;
 
   grid-area: Bmeda1;
   background-color: orange;
+  padding-top: 80px;
 
 }
 
@@ -207,6 +223,7 @@ grid-gap: 10px;
 
   grid-area: Bsmalla2;
   background-color: yellow;
+  padding-top: 80px;
 
 }
 
@@ -214,6 +231,7 @@ grid-gap: 10px;
 
   grid-area: Bheadera1;
   background-color: green;
+  padding-top: 80px;
 
 }
 
@@ -221,6 +239,7 @@ grid-gap: 10px;
 
   grid-area: Bimga1;
   background-color: blue;
+  padding-top: 80px;
 
 }
 
@@ -228,6 +247,7 @@ grid-gap: 10px;
 
   grid-area: Bmaina1;
   background-color: indigo;
+  padding-top: 80px;
 
 }
 
@@ -235,6 +255,7 @@ grid-gap: 10px;
 
   grid-area: Bsidebara1;
   background-color: purple;
+  padding-top: 160px;
 
 }
 
@@ -242,6 +263,7 @@ grid-gap: 10px;
 
   grid-area: Bquotea1;
   background-color: red;
+  padding-top: 80px;
 
 }
 
@@ -249,6 +271,7 @@ grid-gap: 10px;
 
   grid-area: Bsmallb1;
   background-color: orange;
+  padding-top: 80px;
 
 }
 
@@ -256,6 +279,7 @@ grid-gap: 10px;
 
   grid-area: Bmedb1;
   background-color: yellow;
+  padding-top: 80px;
 
 }
 
@@ -263,6 +287,7 @@ grid-gap: 10px;
 
   grid-area: Bsmallb2;
   background-color: green;
+  padding-top: 80px;
 
 }
 
@@ -270,6 +295,7 @@ grid-gap: 10px;
 
   grid-area: Blargea1;
   background-color: blue;
+  padding-top: 80px;
 
 }
 
@@ -277,6 +303,7 @@ grid-gap: 10px;
 
   grid-area: Bfooter;
   background-color: indigo;
+  padding-top: 40px;
 
 }
 
@@ -314,6 +341,6 @@ Responsive
     height: 100vh;
     grid-gap: 0px;
 
-
   }
+
 }
