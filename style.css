@@ -50,7 +50,7 @@ Grid 1
 .Aheader{
 
   grid-area: Aheader;
-  background-color: red;
+  background-color: #D0C195;
   padding-top: 120px;
 
 }
@@ -58,7 +58,7 @@ Grid 1
 .Asidebara1{
 
   grid-area: Asidebara1;
-  background-color: orange;
+  background-color: #E2D9B3;
   padding-top: 120px;
 
 }
@@ -66,7 +66,7 @@ Grid 1
 .Asidebara2{
 
   grid-area: Asidebara2;
-  background-color: yellow;
+  background-color: #ECEAD3;
   padding-top: 120px;
 
 }
@@ -74,7 +74,7 @@ Grid 1
 .Amaina{
 
   grid-area: Amaina;
-  background-color: green;
+  background-color: #C9DCAF;
   padding-top: 120px;
 
 }
@@ -82,7 +82,7 @@ Grid 1
 .Aaside{
 
   grid-area: Aaside;
-  background-color: blue;
+  background-color: #BF9E86;
   padding-top: 120px;
 
 }
@@ -90,7 +90,7 @@ Grid 1
 .Asidebarb1{
 
   grid-area: Asidebarb1;
-  background-color: indigo;
+  background-color: #D0C195;
   padding-top: 120px;
 
 }
@@ -98,7 +98,7 @@ Grid 1
 .Asidebarb2{
 
   grid-area: Asidebarb2;
-  background-color: purple;
+  background-color: #E2D9B3;
   padding-top: 120px;
 
 }
@@ -106,7 +106,7 @@ Grid 1
 .Asidebarb3{
 
   grid-area: Asidebarb3;
-  background-color: red;
+  background-color: #ECEAD3;
   padding-top: 120px;
 
 }
@@ -114,7 +114,7 @@ Grid 1
 .Amainb{
 
   grid-area: Amainb;
-  background-color: orange;
+  background-color: #C9DCAF;
   padding-top: 120px;
 
 }
@@ -122,7 +122,7 @@ Grid 1
 .Afooter{
 
   grid-area: Afooter;
-  background-color: yellow;
+  background-color: #BF9E86;
   padding-top: 60px;
 
 }
@@ -206,7 +206,7 @@ grid-gap: 10px;
 .Bsmalla1{
 
   grid-area: Bsmalla1;
-  background-color: red;
+  background-color: #D0C195;
   padding-top: 80px;
 
 }
@@ -214,7 +214,7 @@ grid-gap: 10px;
 .Bmeda1{
 
   grid-area: Bmeda1;
-  background-color: orange;
+  background-color: #E2D9B3;
   padding-top: 80px;
 
 }
@@ -222,7 +222,7 @@ grid-gap: 10px;
 .Bsmalla2{
 
   grid-area: Bsmalla2;
-  background-color: yellow;
+  background-color: #ECEAD3;
   padding-top: 80px;
 
 }
@@ -230,7 +230,7 @@ grid-gap: 10px;
 .Bheadera1{
 
   grid-area: Bheadera1;
-  background-color: green;
+  background-color: #C9DCAF;
   padding-top: 80px;
 
 }
@@ -238,7 +238,7 @@ grid-gap: 10px;
 .Bimga1{
 
   grid-area: Bimga1;
-  background-color: blue;
+  background-color: #BF9E86;
   padding-top: 80px;
 
 }
@@ -246,7 +246,7 @@ grid-gap: 10px;
 .Bmaina1{
 
   grid-area: Bmaina1;
-  background-color: indigo;
+  background-color: #D0C195;
   padding-top: 80px;
 
 }
@@ -254,7 +254,7 @@ grid-gap: 10px;
 .Bsidebara1{
 
   grid-area: Bsidebara1;
-  background-color: purple;
+  background-color: #E2D9B3;
   padding-top: 160px;
 
 }
@@ -262,7 +262,7 @@ grid-gap: 10px;
 .Bquotea1{
 
   grid-area: Bquotea1;
-  background-color: red;
+  background-color: #ECEAD3;
   padding-top: 80px;
 
 }
@@ -270,7 +270,7 @@ grid-gap: 10px;
 .Bsmallb1{
 
   grid-area: Bsmallb1;
-  background-color: orange;
+  background-color: #C9DCAF;
   padding-top: 80px;
 
 }
@@ -278,7 +278,7 @@ grid-gap: 10px;
 .Bmedb1{
 
   grid-area: Bmedb1;
-  background-color: yellow;
+  background-color: #C9DCAF;
   padding-top: 80px;
 
 }
@@ -286,7 +286,7 @@ grid-gap: 10px;
 .Bsmallb2{
 
   grid-area: Bsmallb2;
-  background-color: green;
+  background-color: #BF9E86;
   padding-top: 80px;
 
 }
@@ -294,7 +294,7 @@ grid-gap: 10px;
 .Blargea1{
 
   grid-area: Blargea1;
-  background-color: blue;
+  background-color: #D0C195;
   padding-top: 80px;
 
 }
@@ -302,7 +302,7 @@ grid-gap: 10px;
 .Bfooter{
 
   grid-area: Bfooter;
-  background-color: indigo;
+  background-color: #E2D9B3;
   padding-top: 40px;
 
 }
